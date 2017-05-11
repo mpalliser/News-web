@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(203, 203, 203);
+}
+
+#header {
+    background:url('../img/navbar.jpg');
+    color: white;
+}
+#publi {
+  display: none;
+}
+.article{
+  border-radius: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(226, 225, 225);
+}
+.description{
+  width: 100%;
+}
+.noticeText {
+  width: 68%;
+}
+.noticeImg{
+  float: right;
+  width: 40%;
+}
