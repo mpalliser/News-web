@@ -71,3 +71,9 @@ span .author{
     float: right;
     margin-right: 2%;
 }
+
+article {
+    font-size: 14px;
+    line-height: 23px;
+    text-align: justify;
+}
