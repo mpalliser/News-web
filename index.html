@@ -7,8 +7,8 @@
     <meta name="description" content="Descripció curta important. Descripció curta important. Descripció curta important."/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link rel="stylesheet" media="screen and (min-width:721px)" href="css/desktop.css">
-    <link rel="stylesheet" media="screen and (max-width:720px)" href="css/mobile.css">
+    <link rel="stylesheet" media="screen and (min-width:769px)" href="css/desktop.css">
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="css/mobile.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -22,9 +22,9 @@
 </head>
 <body>
 
-    <div class="container-fluid">
-        <nav class="navbar navbar-inverse navbar-top">
-          <div class="container-fluid">
+    <div class="container">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
             <div class="navbar-header">
               <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu">
                   <span class="sr-only">Menu</span>
@@ -36,11 +36,18 @@
             <div class="collapse navbar-collapse" id="menu">
                 <ul class="nav navbar-nav">
                   <li class="active"><a href="#">Home</a></li>
-                  <li><a href="#">Ultimas noticias</a></li>
+                  <li class="dropdown" >
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Ultimas noticias <span class="caret"></span></a>
+                      <ul class="inverse-dropdown dropdown-menu ">
+                          <li><a href="#">Noticia S8</a></li>
+                          <li><a href="#">Noticia One Plus</a></li>
+                          <li><a href="#">Noticia Iphone</a></li>
+                      </ul>
+                  </li>
                   <li><a href="#">Acerca de:</a></li>
-                  <li><a href="#"class="fa fa-twitter"></a></li>
-                  <li><a href="#"class="fa fa-facebook"></a></li>
-                  <li><a href="#"class="fa fa-instagram"></a></li>
+                  <li><a href="www.twitter.com"class="fa fa-twitter"></a></li>
+                  <li><a href="www.facebook.com"class="fa fa-facebook"></a></li>
+                  <li><a href="www.instagram.com"class="fa fa-instagram"></a></li>
                 </ul>
 
                 <form class="navbar-form navbar-right">
@@ -60,7 +67,7 @@
         </nav>
     </div>
 
-    <div id="header" class="container jumbotron text-center">
+    <div id="header" class="jumbotron text-center">
 
         <h1>SmartNotices</h1>
 
@@ -79,14 +86,14 @@
                     <img class="noticeImg img-responsive img-thumbnail" src="img/s8.jpg" alt="Cinque Terre" width="304" height="236">
                     <header>
                         <a href="#">
-                            <h2 class="text-justify">Titulo de la noticia</h2>
+                            <h3>Galaxy S8 ¿el mejor smarthpone?</h3>
                         </a>
                     </header>
                     <hr>
                     <section class="description text-justify">
-                        <p class="noticeText">breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
-                            breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
-                            breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
+                        <p class="noticeText">¿Es el Samsung Galaxy S8 el mejor móvil del mercado? Respondemos a la gran pregunta del año en nuestro análisis a fondo del
+                            nuevo terminal estrella coreano. Nuevo año, mismos protagonistas, mismo dilema. Samsung llega un nuevo año, un nuevo curso y presenta su smartphone estrella: el Galaxy S8,
+                            con el que espera consolidar otro año más como el que más vende dentro del mercado móvil.
                             <a href="#"><span>Leer mas...</span></a>
                         </p>
                     </section>
@@ -97,17 +104,17 @@
                 <hr>
 
                 <article class="article">
-                    <img class="noticeImg img-responsive img-thumbnail" src="img/s8.jpg" alt="Cinque Terre" width="304" height="236">
+                    <img class="noticeImg img-responsive img-thumbnail" src="img/g6.jpg" alt="Cinque Terre" width="304" height="236">
                     <header>
                         <a href="#">
-                            <h2>Titulo de la noticia</h2>
+                            <h3>3 motivos para comprar el LG G6</h3>
                         </a>
                     </header>
                     <hr>
                     <section class="description text-justify">
-                        <p class="noticeText">breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
-                            breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
-                            breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
+                        <p class="noticeText">Dos meses más tarde desde su presentación en el MWC 2017, el LG G6 por fin comenzará su comercialización esta misma semana de forma global.
+                            Así lo ha confirmado LG en su blog oficial de noticias, señalando que, tal ha sido la demanda de su nuevo terminal, que se han visto obligados a anticipar su
+                            llegada a la mayor parte de mercados.
                             <a href="#"><span>Leer mas...</span></a>
                         </p>
                     </section>
@@ -118,17 +125,18 @@
                 <hr>
 
                 <article class="article">
-                    <img class="noticeImg img-responsive img-thumbnail" src="img/s8.jpg" alt="Cinque Terre" width="304" height="236">
+                    <img class="noticeImg img-responsive img-thumbnail" src="img/mi6.jpg" alt="Cinque Terre" width="304" height="236">
                     <header>
                         <a href="#">
-                            <h2>Titulo de la noticia</h2>
+                            <h3>Motivos de comprar del Xiaomi mi6</h3>
                         </a>
                     </header>
                     <hr>
                     <section class="description text-justify">
-                        <p class="noticeText">breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
-                            breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
-                            breve descripcion de la noticia en si, el cual estara limitado a un numero de palabras que no debe excederse.
+                        <p class="noticeText">Ya sí, podemos decir que toda la gama alta de 2017, a falta del OnePlus 5 y el Note8, está presentada. Como nos temíamos, ninguno de los teléfonos presentados supone un salto cualitativo respecto al año pasado.
+                            Sin embargo, hay uno que nos ha llamado poderosamente la atención; el Xiaomi Mi 6.Tanto es así,
+                            que personalmente, prefiero este modelo al Samsung Galaxy S8, y no, no es solo por el precio,
+                            sino por otros muchos factores que voy a comentarte a continuación.
                             <a href="#"><span>Leer mas...</span></a>
                         </p>
                     </section>
