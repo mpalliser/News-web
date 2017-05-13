@@ -19,9 +19,7 @@ body {
     border-radius: 5px;
 }
 
-#publi {
-  display: none;
-}
+
 
 .article{
   padding: 10px;
@@ -34,13 +32,12 @@ body {
 .description{
   width: 100%;
 }
-.noticeText {
-  display: none;
-}
+
 
 .noticeImg{
-  width: 38%;
+  width: 30%;
   float: right;
+  margin-left: 5%;
 }
 
 span .author{
@@ -62,4 +59,9 @@ span .author{
 .author {
     float: right;
     margin-right: 2%;
+}
+
+#publiM {
+  background-color: red !important;
+  height: 90px;
 }

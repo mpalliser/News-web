@@ -1,11 +1,11 @@
 body {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(236, 236, 236) !important;
 }
 .navbar{
     margin-bottom: 0px;
 }
 #header {
-    background:url('../img/amg.jpg');
+    background-color: black;
     background-repeat: repeat-y;
     background-size: 100%;
     color: white;
@@ -29,6 +29,11 @@ body {
   padding: 20px;
 }
 
+#publiM {
+  background-color: red !important;
+  height: 90px;
+}
+
 .article{
   padding: 10px;
 }
@@ -37,11 +42,11 @@ body {
 }
 .noticeText {
   width: 65%;
-  padding-right: 2%;
+  padding-right: 5%;
 }
 .noticeImg{
-  width: 35%;
   float: right;
+  width: 38%;
 }
 span .author{
     float: right;
