@@ -23,8 +23,8 @@ function loadNews(){
     $.each(json, function(index){
     $(".noticias").append("<article class='article'><img class='noticeImg img-responsive img-thumbnail' src="
     + json[index].image+" alt='Cinque Terre' width='304' height='236'><header><a href='#'><h3>"
-    + json[index].title+"</h3></a></header><hr><section class='description'><p class='noticeText'>"
-    + json[index].body +"<a href='#'><span> Leer mas...</span></a></p></section><footer class='date'><span>"
+    + json[index].title+"</h3></a></header><hr><section class='description'><p class='text-justify noticeText'>"
+    + json[index].body +"<a href='#'><span> Leer mas...</span></a></p></section><footer class='date'><span>Publicado día:"
     + json[index].data +"</span><span class='author'> Author: <a href='#'>"
     + json[index].author +"</a></span></footer></article><hr>");
   });
