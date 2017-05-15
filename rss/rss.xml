@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+	<channel>
+		
+		<title>SmartNotices</title>
+		<link>https://rawgit.com/mpalliser/news-web/master/index.html</link>
+		<description>Página donde encontraras las notícias de actualidad tecnológica relacionada con los smartphones de moda.</description>
+		<item>
+			<title>S8, análisis en vídeol</title>
+			<link>https://rawgit.com/mpalliser/news-web/master/notice.html</link>
+			<description>
+				¿Es el Samsung Galaxy S8 el mejor móvil del mercado? Respondemos a la gran pregunta del año en nuestro análisis a fondo
+				del nuevo terminal estrella coreano.
+			</description>
+			<image>https://raw.githubusercontent.com/mpalliser/news-web/master/img/articles/s8.jpg</image>
+		</item>
+
+		<item>
+			<title>3 motivos para comprar el nuevo LG G6</title>
+			<link>https://rawgit.com/mpalliser/news-web/master/index.html</link>
+			<description>
+				Dos meses más tarde desde su presentación en el MWC 2017, el LG G6 por fin comenzará su comercialización esta misma semana
+				 de forma global. Así lo ha confirmado LG en su blog oficial de noticias, señalando que, tal ha sido la demanda de su nuevo terminal,
+				  que se han visto obligados a anticipar su llegada a la mayor parte de mercados.
+			</description>
+			<image>https://raw.githubusercontent.com/mpalliser/news-web/master/img/articles/g6.jpg</image>
+		</item>
+
+	</channel>
+</rss>
