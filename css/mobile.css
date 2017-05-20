@@ -4,7 +4,9 @@ body {
 .navbar{
     margin-bottom: 0px;
 }
-
+#noticeBody{
+	margin-top: 7%;
+}
 #header {
     margin-top: 50px;
     background-image: url(../img/jt.jpg);

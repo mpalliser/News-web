@@ -11,6 +11,10 @@ body {
     background-size: 100%;
     color: black;
 }
+
+#noticeBody{
+	margin-top: 75px;
+}
 .noticias{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
@@ -54,6 +58,7 @@ body {
 span .author{
     float: right;
 }
+
 
 .fa-facebook {
     color: #3b5998 !important;
