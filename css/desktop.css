@@ -27,13 +27,12 @@ body {
 #publi {
   border-radius: 5px;
   width: 300px;
-  height: 800px;
-  overflow:auto;
-  background-color: rgb(233, 163, 163);
   float: right;
   margin:0px;
-  padding: 20px;
+  padding: 0px;
 }
+
+
 
 #publiM {
   background-color: red !important;
