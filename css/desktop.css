@@ -93,6 +93,6 @@ article {
     border 1px solid #000;
     background: #272727;
     -webkit-background-origin: border;
-    border-radius: 4px;
+    border-radius: 100px;
 
 }
