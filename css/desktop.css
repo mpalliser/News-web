@@ -81,3 +81,18 @@ article {
     line-height: 23px;
     text-align: justify;
 }
+
+#dynamic-to-top{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    top: auto;
+    left: auto;
+    color: white;
+    padding: 17px 16px;
+    border 1px solid #000;
+    background: #272727;
+    -webkit-background-origin: border;
+    border-radius: 4px;
+
+}
