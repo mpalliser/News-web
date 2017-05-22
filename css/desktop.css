@@ -94,5 +94,12 @@ article {
     background: #272727;
     -webkit-background-origin: border;
     border-radius: 100px;
-
 }
+
+#foter{
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-family: a_love_of_thunderregular;
