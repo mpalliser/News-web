@@ -64,8 +64,7 @@ span .author{
 
 #publiM {
     z-index: 1;
-  background-color: red !important;
-  height: 90px;
+	height: 90px;
 }
 
 #dynamic-to-top{
@@ -81,4 +80,13 @@ span .author{
     -webkit-background-origin: border;
     border-radius: 180px;
 
+}
+#foter{
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+	background-color: black;
+	color: white;
+	font-family: a_love_of_thunderregular;
+	margin-bottom:90px;
 }
