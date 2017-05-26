@@ -19,7 +19,6 @@ body {
 .noticias{
     background-color: rgb(255, 255, 255);
     border-radius: 5px;
-    margin-bottom: 90px;
 }
 .search{
     background-color: rgb(226, 226, 226);
@@ -66,6 +65,12 @@ span .author{
     z-index: 1;
 	height: 90px;
 }
+#publiM img {
+	display: inline-block;
+	flex-shrink: 0;
+	max-width: 150%;
+	max-height: 150%;
+}
 
 #dynamic-to-top{
     z-index: 2;
@@ -74,13 +79,13 @@ span .author{
     right: 10px;
     top: auto;
     left: auto;
-    color: white;
+    color: #272727;
     padding: 10px 10px;
-    border: 3px solid white;
+    border: 3px solid #272727;
     -webkit-background-origin: border;
     border-radius: 180px;
-
 }
+
 #foter{
 	text-align: center;
 	padding: 20px;

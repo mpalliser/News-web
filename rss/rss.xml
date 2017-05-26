@@ -3,7 +3,7 @@
 
 	<channel>
 
-		<title>SmartNotices</title>
+		<title>Smart Notices</title>
 		<link>https://rawgit.com/mpalliser/news-web/master/index.html</link>
 		<description>Página donde encontraras las notícias de actualidad tecnológica relacionada con los smartphones de moda.</description>
 		<item>
@@ -13,7 +13,6 @@
 				¿Es el Samsung Galaxy S8 el mejor móvil del mercado? Respondemos a la gran pregunta del año en nuestro análisis a fondo
 				del nuevo terminal estrella coreano.
 			</description>
-			<image>https://raw.githubusercontent.com/mpalliser/news-web/master/img/articles/s8.jpg</image>
 		</item>
 		<item>
 			<title>3 motivos para comprar el nuevo LG G6</title>
@@ -23,8 +22,6 @@
 				 de forma global. Así lo ha confirmado LG en su blog oficial de noticias, señalando que, tal ha sido la demanda de su nuevo terminal,
 				  que se han visto obligados a anticipar su llegada a la mayor parte de mercados.
 			</description>
-			<image>https://raw.githubusercontent.com/mpalliser/news-web/master/img/articles/g6.jpg</image>
 		</item>
-		<image>https://raw.githubusercontent.com/mpalliser/News-web/master/img/Logo.jpg</image>
 	</channel>
 </rss>
